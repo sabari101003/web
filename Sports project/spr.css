@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    animation: mohan 5s infinite;
+}
+
+@keyframes mohan {
+    0% {
+        background-position: 50%;
+    }
+    50% {
+        background-position: 75%;
+    }
+    100% {
+        background-position: 50%;
+    }
+}
+/* @keyframes mohan {
+    0% {
+        transition: 0.5s;
+        background: radial-gradient(circle, rgb(255, 0, 111) 0%, rgba(148,187,233,1) 100%);
+        
+    }
+    50% {
+        transition: 0.5s;
+        background: radial-gradient(circle, rgb(0, 13, 255) 0%, rgba(148,187,233,1) 100%);
+        
+    }
+    100% {
+        transition: 0.5s;
+        background: radial-gradient(circle, rgb(255, 247, 0) 0%, rgba(148,187,233,1) 100%);
+
+    }
+} */
+
+
+
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+li,h1,ul{
+    display: inline;
+    
+}
+li,h1,ul:hover{
+    display: inline;
+    
+}
+ul{
+    margin-left: 75%;
+}
+
+li{
+    color: rgb(219, 212, 18);
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+li:hover{
+    color: white;
+    font-size: larger;
+}
+
+input{
+    border-radius: 30px;
+    width: 60%;
+    padding: 15px;
+
+}
+input:focus{
+    background-color: bisque;
+}
+input:hover{
+    border-color: greenyellow;
+}
+.search{
+    padding: 50px;
+    text-align: center;
+}
+
+img{
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+.box1{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+    transition: 0.5s all ease-in-out;
+    border-radius: 20px;
+    margin-left: 10px;
+    color: black;
+    background: radial-gradient(circle, rgb(187, 189, 199) 0%, rgb(175, 128, 138) 100%);
+
+
+}
+.box1:hover{
+    background-color: rgb(17, 166, 235);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(1.1);
+    margin-inline: 20px;
+    border-color: yellow;
+}
+.products{
+    text-align: center;
+    transition: 0.5s all ease-in-out;
+}
+.about{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.contact{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+footer{
+    background-color: black;
+
+}
+
+.dp{
+    color: white;
+    text-align: end;
+    position: relative;
+    right: 50px;
+    
+    
+}
